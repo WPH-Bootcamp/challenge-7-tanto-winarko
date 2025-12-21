@@ -1,3 +1,9 @@
-import Modal from "./Modal";
+import React from 'react'
 
-export default Modal;
+const index = () => {
+  return (
+    <div>index</div>
+  )
+}
+
+export default index
