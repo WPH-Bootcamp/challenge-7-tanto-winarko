@@ -2,7 +2,7 @@ const FeedbackForm = () => {
   return (
     <section id="feedbackForm" className="w-full align-middle">
       <div className="flex flex-col w-[361px] md:w-[720px] align-middle mt-10 mx-auto">
-        <span className="flex flex-col text-center gap-4 pt-10 pb-6 w-90.25 md:w-full">
+        <span className="flex flex-col text-center gap-4 pb-6 w-90.25 md:w-full">
           <span className="text-[28px] leading-9.5 font-bold">
             Ready to Start? Let’s Talk.
           </span>

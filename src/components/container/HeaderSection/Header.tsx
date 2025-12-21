@@ -100,7 +100,7 @@ const Header = () => {
             </a>
           ))}
           <div>
-            <Button name="letstalk" label="Let's Talk"></Button>
+            <Button name="letstalk" label="Let's Talk" width="full"></Button>
           </div>
         </div>
       )}

@@ -10,7 +10,8 @@ import Process from "./components/container/Process";
 import Services from "./components/container/Services";
 import Testimonials from "./components/container/Testimonials";
 import TrustedPartner from "./components/container/TrustedPartner";
-import type { Testimonial } from "./types/Types";
+import type { Testimonial } from "./types/TestimonialType";
+import type { FaqType } from "./types/FaqType";
 
 const testimonials: Testimonial[] = [
   {
@@ -42,6 +43,34 @@ const testimonials: Testimonial[] = [
   },
 ];
 
+const faqProps: FaqType[] = [
+  {
+    question: "What Services Do You Offer?",
+    answer:
+      "We provide custom web/app development, cloud solutions, UX/UI design, and more.",
+  },
+  {
+    question: "How do I know if this is right for my business?",
+    answer:
+      "Book a free consult — we’ll assess your goals and recommend the right approach.",
+  },
+  {
+    question: "How much does a project cost?",
+    answer:
+      "Every project is different. Let’s talk about your needs to get a tailored estimate.",
+  },
+  {
+    question: "How long does it take?",
+    answer:
+      "Depends on scope — but we always prioritize quality and deadlines.",
+  },
+  {
+    question: "Can I start with a small project first?",
+    answer:
+      "Absolutely. We often begin with MVPs or pilot projects.",
+  },
+];
+
 function App() {
   return (
     <div>
@@ -54,7 +83,7 @@ function App() {
       <Industry />
       <Portfolio />
       <Testimonials testimonials={testimonials} />
-      <Faq />
+      <Faq faqs={faqProps} />
       <FeedbackForm />
       <Footer />
     </div>

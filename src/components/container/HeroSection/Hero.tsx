@@ -1,6 +1,5 @@
 import Button from "../../ui/Button";
 
-
 const hero_light = "./assets/images/Image Hero-lightmode.svg";
 const hero_dark = "./assets/images/Image Hero-darkmode.svg";
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { TestimonialProps } from "../../../types/Types";
+import type { TestimonialProps } from "../../../types/TestimonialType";
 
 const Testimonials: React.FC<TestimonialProps> = ({ testimonials }) => {
   const [currentIndex, setCurrentIndex] = useState(1);
